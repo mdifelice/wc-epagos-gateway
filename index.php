@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: ePagos Payment Gateway for WooCommerce
- * Plugin URI: https://github.com/yourusername/wc-epagos-gateway
- * Description: Accept payments in Argentina using ePagos payment gateway
+ * Plugin URI: https://github.com/mdifelice/wc-epagos-gateway
+ * Description: Accept payments in Argentina using ePagos payment gateway (API v2.1 SOAP)
  * Version: 1.0.0
  * Author: Your Name
  * Author URI: https://yourwebsite.com
@@ -36,6 +36,12 @@ function wc_epagos_gateway_init() {
         return;
     }
 
+    // Check if SOAP extension is available
+    if ( ! class_exists( 'SoapClient' ) ) {
+        add_action( 'admin_notices', 'wc_epagos_missing_soap_notice' );
+        return;
+    }
+
     // Include the gateway class
     require_once WC_EPAGOS_PLUGIN_DIR . 'includes/class-wc-epagos-gateway.php';
 
@@ -62,6 +68,17 @@ function wc_epagos_missing_wc_notice() {
     echo '<div class="error"><p><strong>' . 
          esc_html__( 'ePagos Payment Gateway requires WooCommerce to be installed and active.', 'wc-epagos-gateway' ) . 
          '</strong></p></div>';
+}
+
+/**
+ * Display admin notice if PHP SOAP extension is not available
+ */
+function wc_epagos_missing_soap_notice() {
+    echo '<div class="error"><p><strong>' . 
+         esc_html__( 'ePagos Payment Gateway requires the PHP SOAP extension to be installed and enabled.', 'wc-epagos-gateway' ) . 
+         '</strong> ' . 
+         esc_html__( 'Please contact your hosting provider to enable the SOAP extension.', 'wc-epagos-gateway' ) . 
+         '</p></div>';
 }
 
 /**
