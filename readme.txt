@@ -1,5 +1,5 @@
 === ePagos Payment Gateway for WooCommerce ===
-Contributors: yourusername
+Contributors: mdifelice
 Tags: woocommerce, payment gateway, argentina, epagos, payments, soap, api
 Requires at least: 5.8
 Tested up to: 6.4
