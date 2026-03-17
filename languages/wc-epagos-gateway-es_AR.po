@@ -1,0 +1,152 @@
+# Spanish (Argentina) translation for ePagos Payment Gateway for WooCommerce
+# Copyright (C) 2024 ePagos Payment Gateway for WooCommerce
+# This file is distributed under the same license as the ePagos Payment Gateway for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ePagos Payment Gateway for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-epagos-gateway\n"
+"POT-Creation-Date: 2024-03-17 12:00:00+00:00\n"
+"PO-Revision-Date: 2024-03-17 12:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Argentina)\n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WordPress\n"
+
+msgid "ePagos Payment Gateway requires WooCommerce to be installed and active."
+msgstr "La Pasarela de Pago ePagos requiere que WooCommerce esté instalado y activo."
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "ePagos"
+msgstr "ePagos"
+
+msgid "Accept payments via ePagos - Popular payment gateway in Argentina"
+msgstr "Aceptá pagos con ePagos - Pasarela de pago popular en Argentina"
+
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+msgid "Enable ePagos Payment Gateway"
+msgstr "Activar Pasarela de Pago ePagos"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que el usuario ve durante el proceso de pago."
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Descripción del método de pago que el cliente verá durante el proceso de pago."
+
+msgid "Pay securely using ePagos. Available payment methods in Argentina."
+msgstr "Pagá de forma segura usando ePagos. Métodos de pago disponibles en Argentina."
+
+msgid "Test Mode"
+msgstr "Modo de Prueba"
+
+msgid "Enable Test Mode"
+msgstr "Activar Modo de Prueba"
+
+msgid "Place the payment gateway in test mode using sandbox credentials."
+msgstr "Poner la pasarela de pago en modo de prueba usando credenciales sandbox."
+
+msgid "Live Organization ID"
+msgstr "ID de Organismo (Producción)"
+
+msgid "Get your Organization ID (id_organismo) from your ePagos account."
+msgstr "Obtené tu ID de Organismo (id_organismo) desde tu cuenta de ePagos."
+
+msgid "Live User ID"
+msgstr "ID de Usuario (Producción)"
+
+msgid "Get your User ID (id_usuario) from your ePagos account."
+msgstr "Obtené tu ID de Usuario (id_usuario) desde tu cuenta de ePagos."
+
+msgid "Live Password"
+msgstr "Contraseña (Producción)"
+
+msgid "Get your API Password from your ePagos account."
+msgstr "Obtené tu Contraseña API desde tu cuenta de ePagos."
+
+msgid "Live Hash"
+msgstr "Hash (Producción)"
+
+msgid "Get your API Hash from your ePagos account."
+msgstr "Obtené tu Hash API desde tu cuenta de ePagos."
+
+msgid "Live Convenio Number"
+msgstr "Número de Convenio (Producción)"
+
+msgid "Get your Convenio number from your ePagos account."
+msgstr "Obtené tu número de Convenio desde tu cuenta de ePagos."
+
+msgid "Test Organization ID"
+msgstr "ID de Organismo (Prueba)"
+
+msgid "Get your test Organization ID from your ePagos sandbox account."
+msgstr "Obtené tu ID de Organismo de prueba desde tu cuenta sandbox de ePagos."
+
+msgid "Test User ID"
+msgstr "ID de Usuario (Prueba)"
+
+msgid "Get your test User ID from your ePagos sandbox account."
+msgstr "Obtené tu ID de Usuario de prueba desde tu cuenta sandbox de ePagos."
+
+msgid "Test Password"
+msgstr "Contraseña (Prueba)"
+
+msgid "Get your test API Password from your ePagos sandbox account."
+msgstr "Obtené tu Contraseña API de prueba desde tu cuenta sandbox de ePagos."
+
+msgid "Test Hash"
+msgstr "Hash (Prueba)"
+
+msgid "Get your test API Hash from your ePagos sandbox account."
+msgstr "Obtené tu Hash API de prueba desde tu cuenta sandbox de ePagos."
+
+msgid "Test Convenio Number"
+msgstr "Número de Convenio (Prueba)"
+
+msgid "Get your test Convenio number from your ePagos sandbox account."
+msgstr "Obtené tu número de Convenio de prueba desde tu cuenta sandbox de ePagos."
+
+msgid "Awaiting ePagos payment confirmation."
+msgstr "Esperando confirmación de pago de ePagos."
+
+msgid "Payment error: "
+msgstr "Error de pago: "
+
+msgid "Unknown error obtaining token"
+msgstr "Error desconocido al obtener el token"
+
+msgid "Shipping"
+msgstr "Envío"
+
+msgid "Payment error"
+msgstr "Error de pago"
+
+msgid "Complete your payment"
+msgstr "Completá tu pago"
+
+msgid "Click the button below to complete your payment with ePagos."
+msgstr "Hacé clic en el botón de abajo para completar tu pago con ePagos."
+
+msgid "Pay with ePagos"
+msgstr "Pagar con ePagos"
+
+msgid "ePagos payment approved."
+msgstr "Pago de ePagos aprobado."
+
+msgid "ePagos payment rejected."
+msgstr "Pago de ePagos rechazado."
+
+msgid "ePagos payment pending."
+msgstr "Pago de ePagos pendiente."
